@@ -1,1 +1,74 @@
 /* TODO: Make it awesome */
+#cart tbody td p {
+  display: inline;
+  text-align: center;
+}
+#cart tbody td {
+  text-align: center;
+}
+header {
+  border: thin solid black;
+  padding: 20px 20px 5px 20px;
+  background-color: yellow;
+  color: yellow;
+}
+h1:not(.card header h1) {
+  font-size: 24px;
+  font-weight: bold;
+  color: forestgreen;
+  padding-bottom: 5px;
+}
+.card header h1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding-left: 40px;
+}
+footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: forestgreen;
+  height: 50px;
+  border: thin solid black;
+  color: yellow;
+}
+nav {
+  width: 75px;
+  align-items: center;
+  padding-top: 20px;
+  z-index: 10;
+}
+nav a {
+  color: forestgreen;
+  font-size: 16px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  padding: 5px;
+}
+nav li:hover {
+  background-color: forestgreen;
+  color: darkgreen;
+}
+nav li a:hover {
+  color: darkgreen;
+}
+#itemCount {
+  padding-left: 3px;
+  font-size: 12px;
+}
+.copy ol {
+  font-size: 20px;
+}
+h1 {
+    color: forestgreen
+}
